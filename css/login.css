@@ -1,0 +1,69 @@
+/* Adicione este código ao seu arquivo de estilo CSS (style.css) ou crie um novo arquivo para estilos específicos da página de login */
+
+section.login {
+    width: 100%; /* Ocupar toda a largura disponível */
+    max-width: 500px; /* Largura máxima para manter o conteúdo legível */
+    margin: 30px auto; /* Centralizar na página e adicionar espaço acima e abaixo */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd; /* Um cinza mais suave para a borda */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+  }
+  
+  section.login h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  section.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Maior espaço entre os elementos do formulário */
+  }
+  
+  section.login label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  section.login input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  section.login button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adicionando uma transição suave */
+  }
+  
+  section.login button:hover {
+    background-color: #0056b3;
+  }
+  
+  section.login p {
+    text-align: center;
+    margin-top: 20px; /* Adicionando mais espaço acima do parágrafo */
+    font-size: 1em;
+  }
+  
+  section.login a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adicionando uma transição suave */
+  }
+  
+  section.login a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  

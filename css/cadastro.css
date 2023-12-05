@@ -1,0 +1,77 @@
+/* Estilos gerais, pode adicionar mais estilos aqui se necessário */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section.cadastro {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto; /* Ajuste o valor para adicionar mais espaçamento acima e abaixo */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  section.cadastro h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  section.cadastro form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  section.cadastro label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  section.cadastro input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  section.cadastro button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  section.cadastro button:hover {
+    background-color: #0056b3;
+  }
+  
+  section.cadastro p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
+  section.cadastro a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  section.cadastro a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
